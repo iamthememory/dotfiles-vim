@@ -15,6 +15,9 @@ call vundle#begin()
 " Let Vundle manage itself.
 Plugin 'VundleVim/Vundle.vim'
 
+" Recover (diff swapfiles when recovering buffers).
+Plugin 'chrisbra/Recover.vim'
+
 " EditorConfig (automatic per-project editor settings).
 Plugin 'editorconfig/editorconfig-vim'
 
