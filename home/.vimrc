@@ -21,6 +21,9 @@ Plugin 'chrisbra/Recover.vim'
 " EditorConfig (automatic per-project editor settings).
 Plugin 'editorconfig/editorconfig-vim'
 
+" typescript-vim (Typescript syntax files).
+Plugin 'leafgarland/typescript-vim'
+
 " vim-rst-tables (reformat reStructuredText tables).
 Plugin 'nvie/vim-rst-tables'
 
