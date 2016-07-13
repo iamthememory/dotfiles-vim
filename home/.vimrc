@@ -30,6 +30,9 @@ Plugin 'sheerun/vim-polyglot'
 " Dispatch (asynchronous command running).
 Plugin 'tpope/vim-dispatch'
 
+" vim-eunuch ("Vim sugar for the UNIX shell commands").
+Plugin 'tpope/vim-eunuch'
+
 " Fugitive (git functionality).
 Plugin 'tpope/vim-fugitive'
 
