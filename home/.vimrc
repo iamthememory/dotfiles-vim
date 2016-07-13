@@ -21,11 +21,11 @@ Plugin 'chrisbra/Recover.vim'
 " EditorConfig (automatic per-project editor settings).
 Plugin 'editorconfig/editorconfig-vim'
 
-" typescript-vim (Typescript syntax files).
-Plugin 'leafgarland/typescript-vim'
-
 " vim-rst-tables (reformat reStructuredText tables).
 Plugin 'nvie/vim-rst-tables'
+
+" vim-polyglot (support for numerous languages).
+Plugin 'sheerun/vim-polyglot'
 
 " Dispatch (asynchronous command running).
 Plugin 'tpope/vim-dispatch'
