@@ -16,9 +16,10 @@ then
   # Add Vundle and clone the plugins.
   if [ -e ~/.vim/bundle/Vundle.vim ]
   then
-    pushd ~/.vim/bundle/Vundle.vim
-    git pull
-    popd
+    (
+      cd ~/.vim/bundle/Vundle.vim
+      git pull
+    )
   else
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
   fi
