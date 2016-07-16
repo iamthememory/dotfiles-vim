@@ -15,6 +15,9 @@ call vundle#begin()
 " Let Vundle manage itself.
 Plugin 'VundleVim/Vundle.vim'
 
+" vim-gitgutter (show changed lines from the Git repo).
+Plugin 'airblade/vim-gitgutter'
+
 " Recover (diff swapfiles when recovering buffers).
 Plugin 'chrisbra/Recover.vim'
 
