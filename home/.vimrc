@@ -42,6 +42,9 @@ Plugin 'tpope/vim-fugitive'
 " Obsession (auto-saving sessions).
 Plugin 'tpope/vim-obsession'
 
+" vim-sensible (reasonable default settings).
+Plugin 'tpope/vim-sensible'
+
 " YouCompleteMe (auto-completion).
 Plugin 'Valloric/YouCompleteMe'
 
@@ -51,10 +54,6 @@ Plugin 'VST'
 
 " All Vundle plugins must be before this line.
 call vundle#end()
-
-" Use filetype-based indentation.
-filetype plugin indent on
-
 
 " Look and feel.
 
@@ -72,9 +71,6 @@ set foldlevel=2
 
 " Show line numbers by default.
 set number
-
-" Enable syntax highlighting.
-syntax on
 
 " Statusline.
 if has('statusline')
@@ -100,7 +96,6 @@ set smartcase
 
 " Better file tab completion.
 set wildmode=longest,list,full
-set wildmenu
 
 " Formatting options.
 set formatoptions+=tcqjn
