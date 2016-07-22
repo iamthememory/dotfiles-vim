@@ -58,6 +58,9 @@ Plugin 'Valloric/YouCompleteMe'
 " VST (reStructuredText).
 Plugin 'VST'
 
+" nerdtree-git-plugin (git support for nerdtree).
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+
 
 " All Vundle plugins must be before this line.
 call vundle#end()
