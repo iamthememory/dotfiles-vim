@@ -31,6 +31,9 @@ nmap <F8> :TagbarToggle<CR>
 " vim-rst-tables (reformat reStructuredText tables).
 Plugin 'nvie/vim-rst-tables'
 
+" nerdtree (directory browser).
+Plugin 'scrooloose/nerdtree'
+
 " vim-polyglot (support for numerous languages).
 Plugin 'sheerun/vim-polyglot'
 
