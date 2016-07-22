@@ -24,6 +24,10 @@ Plugin 'chrisbra/Recover.vim'
 " EditorConfig (automatic per-project editor settings).
 Plugin 'editorconfig/editorconfig-vim'
 
+" tagbar (ctags browser).
+Plugin 'majutsushi/tagbar'
+nmap <F8> :TagbarToggle<CR>
+
 " vim-rst-tables (reformat reStructuredText tables).
 Plugin 'nvie/vim-rst-tables'
 
