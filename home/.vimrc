@@ -131,3 +131,6 @@ au BufRead,BufNewFile *.h.in set filetype=cpp.doxygen
 
 " Assume LaTeX format for TeX files
 let g:tex_flavor='latex'
+
+" Local changes.
+source $HOME/.vimrc.local
