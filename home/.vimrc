@@ -15,6 +15,9 @@ call vundle#begin()
 " Let Vundle manage itself.
 Plugin 'VundleVim/Vundle.vim'
 
+" vim-sensible (reasonable default settings).
+Plugin 'tpope/vim-sensible'
+
 " vim-gitgutter (show changed lines from the Git repo).
 Plugin 'airblade/vim-gitgutter'
 
@@ -48,9 +51,6 @@ Plugin 'tpope/vim-fugitive'
 
 " Obsession (auto-saving sessions).
 Plugin 'tpope/vim-obsession'
-
-" vim-sensible (reasonable default settings).
-Plugin 'tpope/vim-sensible'
 
 " YouCompleteMe (auto-completion).
 Plugin 'Valloric/YouCompleteMe'
