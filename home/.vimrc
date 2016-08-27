@@ -52,9 +52,6 @@ Plugin 'tpope/vim-fugitive'
 " Obsession (auto-saving sessions).
 Plugin 'tpope/vim-obsession'
 
-" YouCompleteMe (auto-completion).
-Plugin 'Valloric/YouCompleteMe'
-
 " VST (reStructuredText).
 Plugin 'VST'
 
