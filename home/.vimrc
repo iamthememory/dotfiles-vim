@@ -31,6 +31,17 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'majutsushi/tagbar'
 nmap <F8> :TagbarToggle<CR>
 
+" haskell-vim (haskell)
+Plugin 'neovimhaskell/haskell-vim'
+let g:haskell_indent_if = 4
+let g:haskell_indent_case = 4
+let g:haskell_indent_let = 4
+let g:haskell_indent_where = 2
+let g:haskell_indent_do = 4
+let g:haskell_indent_in = 4
+let g:haskell_indent_guard = 2
+let g:cabal_indent_section = 4
+
 " vim-rst-tables (reformat reStructuredText tables).
 Plugin 'nvie/vim-rst-tables'
 
