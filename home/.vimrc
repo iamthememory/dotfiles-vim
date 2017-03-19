@@ -107,6 +107,9 @@ set wildmode=longest,list,full
 " Formatting options.
 set formatoptions+=tcqjn
 
+" Keep indents on linebreak.
+set breakindent
+
 
 " Try to template from a skeleton.
 autocmd BufNewFile *.* silent! execute '0r $HOME/.vim/templates/skeleton.'.expand("<afile>:e")
