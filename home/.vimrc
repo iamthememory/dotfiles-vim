@@ -43,7 +43,8 @@ let g:haskell_indent_guard = 2
 let g:cabal_indent_section = 4
 
 " vim-rst-tables (reformat reStructuredText tables).
-Plugin 'nvie/vim-rst-tables'
+" Doesn't really work with Python 3.
+"Plugin 'ossobv/vim-rst-tables-py3'
 
 " nerdtree (directory browser).
 Plugin 'scrooloose/nerdtree'
